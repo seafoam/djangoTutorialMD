@@ -1,0 +1,38 @@
+[
+{
+  "pk": 1, 
+  "model": "auth.user", 
+  "fields": {
+    "username": "orcadmin", 
+    "first_name": "", 
+    "last_name": "", 
+    "is_active": true, 
+    "is_superuser": true, 
+    "is_staff": true, 
+    "last_login": "2014-06-10T23:03:55.868Z", 
+    "groups": [], 
+    "user_permissions": [], 
+    "password": "pbkdf2_sha256$12000$Sggnay99hoyQ$BUmq+Vf6aPkBCqe/3PnoFhCSsIRjDfysoz6SUkbNjjk=", 
+    "email": "lawrence@openroad.ca", 
+    "date_joined": "2014-06-10T23:03:55.868Z"
+  }
+},
+{
+  "pk": 2, 
+  "model": "auth.user", 
+  "fields": {
+    "username": "bobsmith", 
+    "first_name": "", 
+    "last_name": "", 
+    "is_active": true, 
+    "is_superuser": true, 
+    "is_staff": true, 
+    "last_login": "2014-06-12T19:18:59.973Z", 
+    "groups": [], 
+    "user_permissions": [], 
+    "password": "pbkdf2_sha256$12000$q1OixTsMG0h2$ZnNUbjlGSMBxi+MTjgB+2km5HMHgoASfNtbBVURxYYQ=", 
+    "email": "bob@example.com", 
+    "date_joined": "2014-06-12T19:18:59.973Z"
+  }
+}
+]
