@@ -1,0 +1,20 @@
+{
+  "name": "djangoTutorialMD",
+  "version": "0.0.0",
+  "authors": [
+    "Lawrence Chan <lawrence@openroad.ca>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "blogengine/static/bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.1.1",
+    "html5-boilerplate": "~4.3.0"
+  }
+}
