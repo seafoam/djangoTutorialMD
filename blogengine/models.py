@@ -4,6 +4,7 @@ from django.contrib.sites.models import Site
 from django.utils.text import slugify
 
 # Create your models here.
+# Test CI
 class Category(models.Model):
     name = models.CharField(max_length=200)
     description = models.TextField()
