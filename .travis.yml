@@ -1,9 +1,12 @@
 language: python
 python:
-- "2.7"
-# command to install dependencies
-install: "pip install -r requirements.txt"
-# command to run tests
-script: coverage run --include="blogengine/*" --omit="blogengine/migrations/*" manage.py test blogengine
-after_success:
-    coveralls
+- '2.7'
+install: pip install -r requirements.txt
+script: coverage run --include="blogengine/*" --omit="blogengine/migrations/*" manage.py
+  test blogengine
+after_success: coveralls
+deploy:
+  provider: heroku
+  api_key:
+  app: djangotutorialmd
+    secure: cyal+UwhFTUyDD1aVng/rhYHoNYt7PDN9nZEshemAVJIyNJ08Hv9MTu9b5h5dJBXgJx0p1XYRxxOUs7PaNmzMpSPBhygfOPcHgMRTP+DEVISj5xdSINvJtU3ntRkqJUtxvnOa2HNDlCERJH/fXG8GLwFRpSJhnO6Ixnmv3Azzw8=
